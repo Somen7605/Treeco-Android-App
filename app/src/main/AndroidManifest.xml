@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TreeCo"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB3IrYN8n8yqTxuIlGGBa82bmq4h3zldYY" />
+
+        <activity
+            android:name=".NearByNursery"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Update_Password"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".success_pass"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".send_Password"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".plantDetails"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EventMapInfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CreateEvent"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EventDetails"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".InputPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EachEventDetailsShow"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CreatePasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PlantActivity3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PlantActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PlantActivity1"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TagActivity3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TagActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TagActivity1"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LoginwithOTPgiving"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LoginwithOTP"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UserDashboard"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RegistrationFailed"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RegOTPGiving"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RegwithOTP"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RegistrationSuccessful"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".IntroductionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Splah"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

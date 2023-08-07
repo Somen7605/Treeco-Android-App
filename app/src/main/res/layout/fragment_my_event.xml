@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MyEventFragment">
+
+    <Button
+        android:fontFamily="@font/nunito_semibold"
+        android:id="@+id/past"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="0dp"
+        android:text="Past"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:shapeAppearanceOverlay="@style/buttomShape" />
+
+    <Button
+        android:fontFamily="@font/nunito_semibold"
+        android:id="@+id/planned"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="0dp"
+        android:text="Planned"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:shapeAppearanceOverlay="@style/buttomShape" />
+
+    <FrameLayout
+        android:id="@+id/fragment_my_event"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </FrameLayout>
+
+
+
+
+</FrameLayout>

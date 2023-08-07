@@ -1,0 +1,87 @@
+ <RelativeLayout android:id="@+id/content_container" xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/page_splash_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <RelativeLayout android:id="@+id/splash_ek3"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                 <ImageView android:id="@+id/vector_ek225"
+                        android:src="@drawable/vector_ek225"
+                        android:contentDescription="vector_ek225"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="500dp"
+                        android:layout_height="812dp" />
+
+
+                    <RelativeLayout android:id="@+id/group_278_ek1"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+
+                        <RelativeLayout android:id="@+id/group_258_ek6"
+                            android:layout_marginTop="106dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <TextView android:id="@+id/this_feature_isn_t_available_ek6"
+                                android:fontFamily="Segoe UI"
+                                android:alpha="0.3"
+                                android:textSize="16sp"
+                                android:textColor="@color/this_feature_isn_t_available_color"
+                                android:layout_marginTop="90dp"
+                                android:layout_width="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_height="wrap_content"
+                                android:text="@string/this_feature_isn_t_available_ek6_string"
+                                android:onClick="myscale"
+                                android:scaleType="fitXY"
+                                />
+
+                            <TextView
+                                android:id="@+id/treeco_ek6"
+                                android:layout_width="232dp"
+                                android:layout_height="122dp"
+                                android:layout_marginLeft="70dp"
+                                android:layout_marginTop="0dp"
+                                android:fontFamily="Segoe UI"
+                                android:onClick="myscale"
+                                android:scaleType="fitXY"
+                                android:text="@string/treeco_ek6_string"
+                                android:textColor="@color/this_feature_isn_t_available_color"
+                                android:textSize="60sp" />
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/subtraction_11_ek6"
+                            android:layout_width="84.55dp"
+                            android:layout_height="117.45dp"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="25dp"
+                            android:contentDescription="subtraction_11_ek6"
+                            android:onClick="myscale"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/subtraction_11_ek6" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+  <!--  </ScrollView> -->
+<!--</HorizontalScrollView>-->

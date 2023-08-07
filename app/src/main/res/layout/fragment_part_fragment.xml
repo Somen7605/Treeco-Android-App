@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParticipationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-580dp">
+
+
+        <!--   <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/customerSpinnerSearch"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+               android:layout_width="311dp"
+               android:layout_height="match_parent"
+               android:hint="Search Tree"
+               app:startIconDrawable="@drawable/searchicon"
+               app:hintTextColor="@color/trees_near_by_color"
+               app:boxStrokeColor="@color/trees_near_by_color"
+               app:counterTextColor="@color/trees_near_by_color"
+               android:backgroundTint="@color/trees_near_by_color">
+
+               <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                   android:id="@+id/tvsearch"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:clickable="true"
+                   tools:ignore="KeyboardInaccessibleWidget" />
+           </com.google.android.material.textfield.TextInputLayout>-->
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/outlinedTextField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="591dp"
+            android:layout_marginRight="32dp"
+            android:hint="Search Participant"
+
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp"
+            app:boxCornerRadiusTopEnd="15dp"
+
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeColor="#32CB00"
+            app:hintTextColor="#32CB00"
+            app:startIconDrawable="@drawable/fi_rr_search">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="660dp"
+            android:layout_marginRight="32dp"
+            android:clickable="false"
+            android:divider="@null" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/idLoadingPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

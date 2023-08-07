@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/page_signup_ek1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-5dp">
+
+            <RelativeLayout
+                android:id="@+id/signup_ek3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="288dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/trees_near_by_color" />
+
+
+                <RelativeLayout
+                    android:id="@+id/inputs_ek39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="509dp">
+
+                    <ImageView
+                        android:id="@+id/loginbtn"
+                        android:layout_width="311dp"
+                        android:layout_height="52dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:contentDescription="rectangle_123_ek24"
+                        android:src="@drawable/rectangle_123_ek24" />
+
+                    <TextView
+                        android:id="@+id/loginsubmit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="Segoe UI"
+                        android:text="Login"
+                        android:textColor="@color/this_feature_isn_t_available_color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_261_ek1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="634dp">
+
+                    <TextView
+                        android:id="@+id/backtv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="Segoe UI"
+                        android:text="@string/back_ek4_string"
+                        android:textColor="@color/back_color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_279_ek4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="67dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_258_ek5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="106dp">
+
+                        <TextView
+                            android:id="@+id/this_feature_isn_t_available_ek5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="29dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="77dp"
+                            android:alpha="0.6"
+                            android:fontFamily="Segoe UI"
+                            android:text="@string/this_feature_isn_t_available_ek5_string"
+                            android:textColor="@color/_bg__android_icon_ek2_color"
+                            android:textSize="14sp" />
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="0dp"
+                        android:contentDescription="subtraction_11_ek4"
+                        android:src="@drawable/treeco_white" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/title_ek3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="168dp"
+                    android:layout_marginTop="328dp"
+                    android:fontFamily="Segoe UI"
+                    android:text="@string/title_ek3_string"
+                    android:textColor="@color/this_feature_isn_t_available_color"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/line_6_ek1"
+                    android:layout_width="295dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="423dp"
+                    android:contentDescription="line_6_ek1"
+                    android:src="@drawable/line_6_ek1" />
+
+
+                <RelativeLayout
+                    android:id="@+id/group_260_ek2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/inputs_ek39"
+                    android:layout_marginTop="455dp"
+                    android:layout_marginEnd="5dp">
+
+                    <TextView
+                        android:id="@+id/resendtxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="Segoe UI"
+                        android:text="@string/resend_ek1_string"
+                        android:textColor="@color/trees_near_by_color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="378dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edotp1"
+                        android:layout_width="0dp"
+                        android:layout_height="52dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/edotp2"
+                        android:layout_width="0dp"
+                        android:layout_height="52dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/edotp3"
+                        android:layout_width="0dp"
+                        android:layout_height="52dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/edotp4"
+                        android:layout_width="0dp"
+                        android:layout_height="52dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <!--progress bar for loading -->
+        <ProgressBar
+            android:id="@+id/idLoadingPB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

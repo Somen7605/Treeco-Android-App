@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:context=".PastFragment">
+
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pending_approval"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:text="Events Pending For Approval"
+                android:textColor="@color/this_feature_isn_t_available_color"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/pending_approval_txt"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:text="No Events Are Pending For Approval"
+                android:textColor="@color/trees_near_by_color"
+                android:textSize="14sp" />
+
+            <ListView
+                android:id="@+id/listview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:divider="@null" />
+            <TextView android:id="@+id/pending_payment"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="14sp"
+                android:textColor="@color/this_feature_isn_t_available_color"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:text="Events Pending For Payment"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/pending_payment_txt"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="14sp"
+                android:textColor="@color/trees_near_by_color"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:text="No Events Are Pending For Payment"
+                />
+            <ListView
+                android:id="@+id/listview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:divider="@null" />
+            <TextView android:id="@+id/confirmed"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="14sp"
+                android:textColor="@color/this_feature_isn_t_available_color"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:text="Confirmed Events"
+                />
+
+            <TextView
+                android:visibility="gone" android:id="@+id/confirmed_txt"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="14sp"
+                android:textColor="@color/trees_near_by_color"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:text="No Events are Confirmed Yet"/>
+            <ListView
+                android:id="@+id/listview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:divider="@null" />
+
+        </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="0dp">
+        <TextView
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="This Week"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/this_week"
+            android:fontFamily="@font/nunito_extrabold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="No upcoming events for this week"
+            android:textSize="14sp"
+            android:textColor="@color/trees_near_by_color"/>
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Next Week"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/next_week"
+            android:fontFamily="@font/nunito_extrabold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="No upcoming events for Next week"
+            android:textSize="14sp"
+            android:textColor="@color/trees_near_by_color"/>
+        <ListView
+            android:id="@+id/listview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+           />
+        <TextView
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Further Weeks"/>
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/further_week"
+            android:fontFamily="@font/nunito_extrabold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="No upcoming events for further weeks"
+            android:textSize="14sp"
+            android:textColor="@color/trees_near_by_color"/>
+        <ListView
+            android:id="@+id/listview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            />
+        <TextView
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text=" "/>
+        <ProgressBar
+            android:id="@+id/idLoadingPB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="-7.5dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:id="@+id/page_treetaging2_ek1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <RelativeLayout
+                    android:id="@+id/treetaging2_ek3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp">
+
+                    <TextView
+                        android:id="@+id/tag_a_tree_ek1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+                        android:layout_alignStart="@+id/group_307"
+
+                        android:layout_marginTop="50dp"
+                        android:fontFamily="@font/nunito_extrabold"
+                        android:text="Create Event"
+                        android:textColor="@color/this_feature_isn_t_available_color"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_305_ek20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/group_307"
+                        android:layout_marginTop="16dp">
+
+                        <ImageView
+                            android:id="@+id/closebtn"
+                            android:layout_width="9.18dp"
+                            android:layout_height="16.02dp"
+                            android:layout_marginTop="5dp"
+                            android:contentDescription="fi_rr_angle_small_left_ek20"
+                            android:src="@drawable/fi_rr_cross_small_ek2" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_307"
+                        android:layout_width="311dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="100dp">
+
+                        <RelativeLayout
+                            android:id="@+id/inputs_ek44"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/filledTextField"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:hint="Event name"
+
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+                                app:boxCornerRadiusTopEnd="15dp"
+                                app:boxCornerRadiusTopStart="15dp"
+
+                                app:boxStrokeColor="#32CB00"
+                                app:endIconMode="custom"
+                                app:hintTextColor="#32CB00">
+
+                                <!--this is the actual edit text which takes the input-->
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/namefield"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/nunito_semibold" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/group_3071"
+                        android:layout_width="311dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="170dp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/inputs_ek441"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/filledTextField1"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                                android:layout_width="311dp"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/trees_near_by_color"
+                                android:hint="Contact Person"
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+                                app:boxCornerRadiusTopEnd="15dp"
+
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="@color/trees_near_by_color"
+                                app:counterTextColor="@color/trees_near_by_color"
+                                app:hintTextColor="@color/trees_near_by_color">
+
+                                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                                    android:id="@+id/poctext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:fontFamily="@font/nunito_semibold"
+                                    tools:ignore="KeyboardInaccessibleWidget" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/description_rela"
+                        android:layout_width="311dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="240dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/detailsmsgcontainer"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="311dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Event Description"
+                            app:boxCornerRadiusBottomEnd="15dp"
+                            app:boxCornerRadiusBottomStart="15dp"
+
+                            app:boxCornerRadiusTopEnd="15dp"
+                            app:boxCornerRadiusTopStart="15dp"
+                            app:boxStrokeColor="@color/trees_near_by_color"
+                            app:hintTextColor="@color/trees_near_by_color">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/noteMessage"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:fontFamily="@font/nunito_semibold"
+                                android:gravity="top"
+                                android:inputType="text|textMultiLine|textCapSentences"
+                                android:isScrollContainer="true"
+                                android:maxLines="5"
+                                android:minLines="5"
+                                android:scrollbars="vertical"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="311dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/description_rela"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/filledTextField3"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="match_parent"
+
+                            android:layout_marginEnd="10dp"
+                            android:layout_weight="1"
+                            android:hint="Date"
+                            app:boxCornerRadiusBottomEnd="15dp"
+                            app:boxCornerRadiusBottomStart="15dp"
+                            app:boxCornerRadiusTopEnd="15dp"
+
+                            app:boxCornerRadiusTopStart="15dp"
+                            app:boxStrokeColor="#32CB00"
+                            app:hintTextColor="#32CB00"
+                            app:startIconDrawable="@drawable/ic_baseline_calendar_today_24">
+
+                            <!--this is the actual edit text which takes the input-->
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edit_dated"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+
+                                android:fontFamily="@font/nunito_medium" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/filledTextField322"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:hint="Time"
+                            app:boxCornerRadiusBottomEnd="15dp"
+                            app:boxCornerRadiusBottomStart="15dp"
+                            app:boxCornerRadiusTopEnd="15dp"
+
+                            app:boxCornerRadiusTopStart="15dp"
+                            app:boxStrokeColor="#32CB00"
+                            app:hintTextColor="#32CB00"
+                            app:startIconDrawable="@drawable/ic_baseline_access_time_24">
+
+                            <!--this is the actual edit text which takes the input-->
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edit_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/nunito_medium" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/inputs_ek442"
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginTop="350dp">
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/inputs_ek44222"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="205dp"
+                        android:layout_marginTop="350dp">
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_30712"
+                        android:layout_width="311dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="420dp">
+
+                        <RelativeLayout
+                            android:id="@+id/inputs_ek4412"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/filledTextField12"
+
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:hint="Location"
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+
+                                app:boxCornerRadiusTopEnd="15dp"
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="#32CB00"
+                                app:hintTextColor="#32CB00">
+
+                                <!--this is the actual edit text which takes the input-->
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/locationtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/nunito_semibold" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/group_281_ek22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="490dp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/rectangle_99_ek25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/customerSpinnerSearch"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                                android:layout_width="311dp"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/trees_near_by_color"
+                                android:hint="Event type"
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+                                app:boxCornerRadiusTopEnd="15dp"
+
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="@color/trees_near_by_color"
+                                app:counterTextColor="@color/trees_near_by_color"
+                                app:hintTextColor="@color/trees_near_by_color">
+
+                                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                                    android:id="@+id/tvsearch"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:fontFamily="@font/nunito_semibold"
+                                    tools:ignore="KeyboardInaccessibleWidget" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_281_ek222"
+                        android:layout_width="311dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="560dp">
+
+                        <RelativeLayout
+                            android:id="@+id/inputs_ek4413"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/filledTextField13"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:hint="Plantation area in Sq. Meters."
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+
+                                app:boxCornerRadiusTopEnd="15dp"
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="#32CB00"
+                                app:hintTextColor="#32CB00">
+
+                                <!--this is the actual edit text which takes the input-->
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/edit_text13"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/nunito_semibold" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/group_281_ek223"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="630dp">
+
+                        <RelativeLayout
+                            android:id="@+id/rectangle_99_ek254"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/customerSpinnerSearch4"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                                android:layout_width="311dp"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/trees_near_by_color"
+                                android:hint="Number of trees to plant"
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+                                app:boxCornerRadiusTopEnd="15dp"
+
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="@color/trees_near_by_color"
+                                app:counterTextColor="@color/trees_near_by_color"
+                                app:hintTextColor="@color/trees_near_by_color">
+
+                                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                                    android:id="@+id/tvsearch4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:fontFamily="@font/nunito_semibold"
+                                    tools:ignore="KeyboardInaccessibleWidget" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/group_30713"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="700dp">
+
+                        <RelativeLayout
+                            android:id="@+id/rectangle_99_ek252"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp">
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/customerSpinnerSearch2"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                                android:layout_width="311dp"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/trees_near_by_color"
+                                android:hint="Choice of Expert"
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+                                app:boxCornerRadiusTopEnd="15dp"
+
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="@color/trees_near_by_color"
+                                app:counterTextColor="@color/trees_near_by_color"
+                                app:hintTextColor="@color/trees_near_by_color">
+
+                                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                                    android:id="@+id/tvsearch2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:fontFamily="@font/nunito_semibold"
+                                    tools:ignore="KeyboardInaccessibleWidget" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/group_281_ek224"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="770dp">
+
+                        <RelativeLayout
+                            android:id="@+id/rectangle_99_ek253"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/customerSpinnerSearch3"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                                android:layout_width="311dp"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/trees_near_by_color"
+                                android:hint="Type of trees to be planted"
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+                                app:boxCornerRadiusTopEnd="15dp"
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="@color/trees_near_by_color"
+                                app:counterTextColor="@color/trees_near_by_color"
+                                app:hintTextColor="@color/trees_near_by_color">
+
+                                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                                    android:id="@+id/tvsearch3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:fontFamily="@font/nunito_semibold"
+                                    tools:ignore="KeyboardInaccessibleWidget" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/group_281_ek225"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="840dp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/rectangle_99_ek255"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp">
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/customerSpinnerSearch5"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                                android:layout_width="311dp"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/trees_near_by_color"
+                                android:hint="Maintenance type"
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+                                app:boxCornerRadiusTopEnd="15dp"
+
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="@color/trees_near_by_color"
+                                app:counterTextColor="@color/trees_near_by_color"
+                                app:hintTextColor="@color/trees_near_by_color">
+
+                                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                                    android:id="@+id/tvsearch5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:fontFamily="@font/nunito_semibold"
+                                    tools:ignore="KeyboardInaccessibleWidget" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/group_281_ek226"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="910dp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/rectangle_99_ek256"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp">
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/customerSpinnerSearch6"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                                android:layout_width="311dp"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/trees_near_by_color"
+                                android:hint="Choice of maintainer"
+                                app:boxCornerRadiusBottomEnd="15dp"
+                                app:boxCornerRadiusBottomStart="15dp"
+                                app:boxCornerRadiusTopEnd="15dp"
+
+                                app:boxCornerRadiusTopStart="15dp"
+                                app:boxStrokeColor="@color/trees_near_by_color"
+                                app:counterTextColor="@color/trees_near_by_color"
+                                app:hintTextColor="@color/trees_near_by_color">
+
+                                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                                    android:id="@+id/tvsearch6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:fontFamily="@font/nunito_semibold"
+                                    tools:ignore="KeyboardInaccessibleWidget" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+
+                        android:id="@+id/inputs_ek32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="950dp">
+
+                        <TextView
+                            android:id="@+id/sign_up_ek1"
+                            android:layout_width="83dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="128dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/nunito_semibold"
+                            android:text=" "
+                            android:textColor="@color/this_feature_isn_t_available_color"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/idLoadingPB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extended_fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="approval"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Send for Approval"
+        app:backgroundTint="@color/trees_near_by_color"
+        app:cornerRadius="-105dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlayExtended" />
+
+</FrameLayout>

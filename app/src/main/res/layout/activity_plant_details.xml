@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".plantDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_marginTop="60dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="1200dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:src="@mipmap/ic_launcher"
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+
+            <RelativeLayout
+                android:id="@+id/group_ek75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="165dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/expandable_cardview"
+                    android:layout_width="323dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="base_ek102"
+                    android:src="@drawable/base_ek102"
+                    app:cardCornerRadius="10dp"
+                    app:cardMaxElevation="500dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <ExpandableListView
+
+                            android:groupIndicator="@drawable/ic_baseline_keyboard_arrow_down_24"
+                            android:childDivider="#C8C7C7"
+                            android:indicatorLeft="250dp"
+                            android:id="@+id/expandableListView"
+                            android:divider="#A5A5A5"
+                            android:dividerHeight="1dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="280dp"
+                            android:layout_height="fill_parent">
+                        </ExpandableListView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

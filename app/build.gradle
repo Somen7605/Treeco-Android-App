@@ -1,0 +1,74 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.treeco"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'com.example.treeco'
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //for biometric
+    implementation 'androidx.biometric:biometric:1.0.1'
+    //for pattern
+    implementation 'com.andrognito.patternlockview:patternlockview:1.0.0'
+    implementation 'com.google.firebase:protolite-well-known-types:17.1.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation "com.airbnb.android:lottie:3.4.0"
+    //for google maps
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    //for edittext of google
+    implementation 'com.google.android.material:material:1.3.0-alpha03'
+
+    //for alert dialog box
+    implementation 'com.google.android.material:material:1.1.0-alpha09'
+    //picasso
+    implementation 'com.squareup.picasso:picasso:2.8'
+    //viewpager
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    //for message otp reading
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:18.0.1'
+
+    //for camera
+    implementation "com.otaliastudios:cameraview:2.7.2"
+    //floatingButton
+    implementation 'com.getbase:floatingactionbutton:1.9.0'
+
+
+
+}

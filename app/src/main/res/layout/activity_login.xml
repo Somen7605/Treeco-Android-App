@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/content_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@+id/page_signup_ek1"
+        android:layout_marginTop="-5dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+        <RelativeLayout android:id="@+id/signup_ek3"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/trees_near_by_color" />
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:id="@+id/group_281_ek17"
+                android:layout_marginTop="410dp"
+                android:layout_marginStart="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <RelativeLayout
+
+                    android:id="@+id/rectangle_99_ek18"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:id="@+id/filledTextField2"
+                        android:layout_width="310dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        app:boxStrokeColor="#32CB00"
+                        app:hintTextColor="#32CB00"
+                        app:endIconMode="password_toggle"
+                        android:hint="Password"
+                        app:boxCornerRadiusTopEnd="15dp"
+                        app:boxCornerRadiusBottomEnd="15dp"
+                        app:boxCornerRadiusBottomStart="15dp"
+                        app:boxCornerRadiusTopStart="15dp"
+
+                        >
+                        <!--this is the actual edit text which takes the input-->
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:fontFamily="@font/nunito_semibold"
+                            android:id="@+id/edpassword"
+                            android:layout_width="match_parent"
+                            android:background="@null"
+                            android:inputType="textPassword"
+                            android:layout_height="wrap_content" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </RelativeLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:id="@+id/inputs_ek32"
+                android:layout_marginTop="490dp"
+                android:layout_marginStart="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/loginbtn"
+                    android:layout_width="311dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="rectangle_123_ek19"
+                    android:src="@drawable/rectangle_123_ek19" />
+
+                <TextView
+                    android:id="@+id/sign_up_ek1"
+                    android:layout_width="83dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:text="@string/login_ek1_string"
+                    android:textColor="@color/this_feature_isn_t_available_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:id="@+id/group_260_ek1"
+                android:layout_marginTop="561dp"
+                android:layout_marginStart="98dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/txtotplogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:text="Login through OTP  "
+                    android:textAlignment="center"
+                    android:textColor="@color/trees_near_by_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/txtoforgotpass"
+                    android:layout_width="195dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:text="@string/forgot_pass"
+                    android:textColor="@color/red"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_centerHorizontal="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/group_261"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="644dp">
+
+                <TextView
+                    android:id="@+id/txtBiometric"
+                    android:layout_width="70dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:text="Biometric"
+                    android:textColor="@color/back_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtpattern"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:text="Pattern"
+                    android:textColor="@color/back_color"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/group_279_ek3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="67dp">
+
+
+                <RelativeLayout
+                    android:id="@+id/group_258_ek4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="106dp">
+
+                    <TextView
+                        android:letterSpacing="0.4"
+                        android:id="@+id/this_feature_isn_t_available_ek4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="29dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="77dp"
+                        android:alpha="0.6"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:text="@string/this_feature_isn_t_available_ek4_string"
+                        android:textColor="@color/_bg__android_icon_ek2_color"
+                        android:textSize="14sp" />
+
+                   <!-- <TextView
+                        android:id="@+id/treeco_ek4"
+                        android:layout_width="176dp"
+                        android:layout_height="122dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="Segoe UI"
+                        android:text="@string/treeco_ek4_string"
+                        android:textColor="@color/_bg__android_icon_ek2_color"
+                        android:textSize="60sp" /> -->
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="subtraction_11_ek4"
+                    android:src="@drawable/treeco_white" />
+
+
+               <!-- <ImageView
+                    android:id="@+id/subtraction_11_ek4"
+                    android:layout_width="84.55dp"
+                    android:layout_height="117.45dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="subtraction_11_ek4"
+                    android:src="@drawable/subtraction_11_ek4" />-->
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:id="@+id/group_280"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="335dp"
+               >
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Mobilenumfield"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="310dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:hint="Mobile Number"
+                    app:boxStrokeColor="#32CB00"
+                    app:endIconMode="clear_text"
+                    app:hintTextColor="#32CB00"
+                    app:boxCornerRadiusTopEnd="15dp"
+                    app:boxCornerRadiusBottomEnd="15dp"
+                    app:boxCornerRadiusBottomStart="15dp"
+                    app:boxCornerRadiusTopStart="15dp"
+
+                    >
+                    <!--this is the actual edit text which takes the input-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:fontFamily="@font/nunito_semibold"
+                        android:inputType="number"
+                        android:id="@+id/editmobilenum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/idLoadingPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EventDetails">
+    <ImageView
+        android:id="@+id/backimage"
+        android:src="@drawable/fi_rr_angle_small_left_ek19"
+        android:contentDescription="fi_rr_angle_small_left_ek19"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="7.18dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/events"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="@string/events_string"
+        android:textColor="@color/this_feature_isn_t_available_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <com.google.android.material.tabs.TabLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:id="@+id/tablayout"
+        android:layout_height="wrap_content"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        >
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upcoming Events"
+
+            app:tabTextColor="#000000"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Events"
+            app:tabTextColor="#000000"
+            />
+    </com.google.android.material.tabs.TabLayout>
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentadd">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            app:backgroundTint="@color/trees_near_by_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/addfloating"
+            android:contentDescription="submit"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp" />
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>
